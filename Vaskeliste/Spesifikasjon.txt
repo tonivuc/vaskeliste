@@ -1,0 +1,31 @@
+Programmet skal:
+V1:
+Ha en array med alle som bor i kollektivet
+Ha en array med alle oppgavene som skal gjøres
+Lage en String som kombinerer disse
+For-loop: {
+--Lager ny Array for beboerne og flytter dem ett hakk frem
+--Kobler dem sammen for en måned
+--Repeat
+}
+
+V2:
+Skrive vaskelisten til tekstfil
+
+V3:
+Lese beboere og duties fra og til fil
+Endre beboere/duties med GUI, som endrer filene
+
+Klasser:
+VaskeData [Statisk]
+-String[] Beboere
+-String[] Oppgaver
+-------------
+-String[] skrivUtArray()
++String skrivUtBeboere()
++String skrivUtOppgaver()
++String[] flyttFolkFram() --Returnerer ny Array hvor alle er flyttet fram et hakk
++String skrivUtMaaned(String[] beboere, String[] oppgaver)
+
+Klient
++Generere vaskeliste
